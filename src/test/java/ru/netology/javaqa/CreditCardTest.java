@@ -13,7 +13,7 @@ class CreditCardTest {
 
     @BeforeEach
     void SetUp() {
-        Configuration.headless = true;
+
         open("http://localhost:9999");
     }
 
